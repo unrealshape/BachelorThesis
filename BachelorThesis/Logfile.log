@@ -1,0 +1,39 @@
+2017-02-09 17:26:24.228 INFO  main.start.main - Programm Startet
+2017-02-09 17:26:25.943 INFO  DatabaseManager.Connector.verbinden - Verbindung Starten
+2017-02-09 17:27:46.972 INFO  main.start.main - Programm Startet
+2017-02-09 17:27:48.591 INFO  DatabaseManager.Connector.verbinden - Verbindung Starten
+2017-02-09 17:27:50.114 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 17:27:51.128 INFO  Views.loginView.abbrechenPressed - Abrrechen gedrückt
+2017-02-09 17:27:54.565 INFO  Views.loginView.passwordVergessenPressed - Password Vergessen gedrueckt
+2017-02-09 17:44:21.693 INFO  main.start.main - Programm Startet
+2017-02-09 17:44:23.143 INFO  DatabaseManager.Connector.verbinden - Verbindung Starten
+2017-02-09 17:44:25.383 INFO  Views.loginView.abbrechenPressed - Abrrechen gedrückt
+2017-02-09 17:45:49.710 INFO  main.start.main - Programm Startet
+2017-02-09 17:45:51.209 INFO  DatabaseManager.Connector.verbinden - Verbindung Starten
+2017-02-09 17:45:51.465 INFO  Controller.loginController.getAllLoginUsers - LoginUser Datenbank runterladen
+2017-02-09 17:46:06.010 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 17:46:13.108 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 17:46:13.109 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 17:46:18.061 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 17:46:18.061 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 17:46:18.061 INFO  Views.loginView.einloggenPressed - Login Erfolgt - Fenster wird geöffnet
+2017-02-09 17:46:23.189 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 17:46:23.189 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 17:46:23.189 INFO  Views.loginView.einloggenPressed - Login Erfolgt - Fenster wird geöffnet
+2017-02-09 17:46:23.621 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 17:46:23.621 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 17:46:23.621 INFO  Views.loginView.einloggenPressed - Login Erfolgt - Fenster wird geöffnet
+2017-02-09 17:46:23.786 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 17:46:23.787 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 17:46:23.787 INFO  Views.loginView.einloggenPressed - Login Erfolgt - Fenster wird geöffnet
+2017-02-09 17:46:23.936 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 17:46:23.937 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 17:46:23.937 INFO  Views.loginView.einloggenPressed - Login Erfolgt - Fenster wird geöffnet
+2017-02-09 17:50:06.874 INFO  main.start.main - Programm Startet
+2017-02-09 17:50:08.398 INFO  DatabaseManager.Connector.verbinden - Verbindung Starten
+2017-02-09 17:50:08.672 INFO  Controller.loginController.getAllLoginUsers - LoginUser Datenbank runterladen
+2017-02-09 17:50:09.744 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 17:50:09.745 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 17:50:14.365 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 17:50:14.366 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 17:50:14.366 INFO  Views.loginView.einloggenPressed - Login Erfolgt - Fenster wird geöffnet

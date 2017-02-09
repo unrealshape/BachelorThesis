@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- status = logging for log4j2 internals -->
+<Configuration status="INFO">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} %-5level %logger{36}.%M - %msg%n" />
+        </Console>
+        <File name="LogFile" fileName="Logfile.log" append="true">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} %-5level %logger{36}.%M - %msg%n"/>
+        </File>
+    </Appenders>
+    <Loggers>
+    	<!-- level = debug level of our application -->
+        <Root level="debug">
+            <AppenderRef ref="Console" />
+            <AppenderRef ref="LogFile"/>
+        </Root>
+    </Loggers>
+</Configuration>
