@@ -3,6 +3,9 @@ package Views;
 import java.awt.Color;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.security.NoSuchAlgorithmException;
+import java.util.Observable;
+import java.util.Observer;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
@@ -14,18 +17,20 @@ import org.apache.logging.log4j.Logger;
 import Beans.loginBean;
 import Controller.loginController;
 import DatabaseManager.Connector;
+import util.MD5;
 
 import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 import javax.swing.JButton;
+import javax.swing.SwingConstants;
 
 /**
  * @author Diana
  *
  */
-public class loginView extends JFrame implements ActionListener {
+public class loginView extends JFrame implements ActionListener,Observer {
 
 
 	private static final long serialVersionUID = 1L;
@@ -40,6 +45,7 @@ public class loginView extends JFrame implements ActionListener {
 	private JLabel lblFailureNotice;
 	private loginController loginCTR = new loginController();
 	private loginBean user ;
+	private MD5 crypter = new MD5();
 	
 	private static final Logger logger = LogManager.getLogger();
 
@@ -62,12 +68,12 @@ public class loginView extends JFrame implements ActionListener {
 		
 		pwdPasswort = new JPasswordField();
 		pwdPasswort.setText("diana");
-		pwdPasswort.setBounds(166, 89, 130, 26);
+		pwdPasswort.setBounds(166, 89, 162, 26);
 		contentPane.add(pwdPasswort);
 		
 		txtBenutzername = new JTextField();
 		txtBenutzername.setText("diana");
-		txtBenutzername.setBounds(166, 61, 130, 26);
+		txtBenutzername.setBounds(166, 61, 162, 26);
 		contentPane.add(txtBenutzername);
 		txtBenutzername.setColumns(10);
 		
@@ -80,10 +86,11 @@ public class loginView extends JFrame implements ActionListener {
 		contentPane.add(btnAbrrechen);
 		
 		btnPassoworVergessen = new JButton("Passowor Vergessen");
-		btnPassoworVergessen.setBounds(81, 189, 247, 29);
+		btnPassoworVergessen.setBounds(81, 189, 245, 29);
 		contentPane.add(btnPassoworVergessen);
 		
 		lblFailureNotice = new JLabel("");
+		lblFailureNotice.setHorizontalAlignment(SwingConstants.CENTER);
 		lblFailureNotice.setBounds(6, 229, 438, 16);
 		contentPane.add(lblFailureNotice);
 		this.setVisible(false);
@@ -160,13 +167,23 @@ public class loginView extends JFrame implements ActionListener {
 		}else
 		{
 			String benutzername = getTxtBenutzername();
-			String passwort = getPwdPasswort();
+			String passwort = "";
+			try{
+				passwort= crypter.stringToMd5(getPwdPasswort());
+				System.out.println("Passwort as MD5 HASH-> " + crypter.stringToMd5(getPwdPasswort()));
+			}catch(NoSuchAlgorithmException e)
+			{
+				e.printStackTrace();
+			}
 			user = new loginBean(benutzername, passwort);
 			if(loginCTR.checkLogin(user))
 			{
 				logger.info("Login Erfolgt - Fenster wird geöffnet");
 				lblFailureNotice.setForeground(Color.green);
 				lblFailureNotice.setText("Anmeldung Erfolgreich");
+				overView overView = new overView();
+				overView.addObserver(this);
+				overView.openWindow();
 			}
 			else
 			{
@@ -180,6 +197,11 @@ public class loginView extends JFrame implements ActionListener {
 	public void passwordVergessenPressed() {
 		logger.info("Password Vergessen gedrueckt");
 	}
+	public void actionByOtherFrame() {
+		logger.info("Benachrichtigung Observer loginView wird wieder Sichtbar.");
+		this.setVisible(true);
+	}
+	
 	//Automatisch generierte Funktionen Grund Klasse : ActionListener
 	@Override
 	public void actionPerformed(ActionEvent e) {
@@ -196,5 +218,10 @@ public class loginView extends JFrame implements ActionListener {
 		{
 			passwordVergessenPressed();
 		}
+	}
+	@Override
+	public void update(Observable o, Object arg) {
+		// TODO Auto-generated method stub
+		
 	}
 }

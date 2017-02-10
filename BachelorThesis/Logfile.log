@@ -37,3 +37,154 @@
 2017-02-09 17:50:14.365 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
 2017-02-09 17:50:14.366 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
 2017-02-09 17:50:14.366 INFO  Views.loginView.einloggenPressed - Login Erfolgt - Fenster wird geöffnet
+2017-02-09 19:32:59.578 INFO  main.start.main - Programm Startet
+2017-02-09 19:33:01.199 INFO  DatabaseManager.Connector.verbinden - Verbindung Starten
+2017-02-09 19:33:01.486 INFO  Controller.loginController.getAllLoginUsers - LoginUser Datenbank runterladen
+2017-02-09 19:33:03.901 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 19:33:03.902 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 19:33:06.566 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 19:33:06.566 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 19:33:08.016 INFO  Views.loginView.abbrechenPressed - Abrrechen gedrückt
+2017-02-09 19:41:38.894 INFO  main.start.main - Programm Startet
+2017-02-09 19:41:40.396 INFO  DatabaseManager.Connector.verbinden - Verbindung Starten
+2017-02-09 19:41:40.674 INFO  DatabaseManager.Connector.verbinden - Verbindung Erfolgreich
+2017-02-09 19:41:40.675 INFO  Controller.loginController.getAllLoginUsers - LoginUser Datenbank runterladen
+2017-02-09 19:41:44.983 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 19:41:44.986 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 19:44:14.277 INFO  Views.loginView.abbrechenPressed - Abrrechen gedrückt
+2017-02-09 19:44:25.269 INFO  main.start.main - Programm Startet
+2017-02-09 19:44:26.703 INFO  DatabaseManager.Connector.verbinden - Verbindung Starten
+2017-02-09 19:44:26.965 INFO  DatabaseManager.Connector.verbinden - Verbindung Erfolgreich
+2017-02-09 19:44:26.965 INFO  Controller.loginController.getAllLoginUsers - LoginUser Datenbank runterladen
+2017-02-09 19:44:28.873 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 19:44:28.874 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 19:44:31.563 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 19:44:31.564 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 19:44:50.801 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 19:44:50.802 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 19:45:39.530 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 19:45:39.531 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 19:45:45.730 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 19:45:45.730 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 19:47:48.605 INFO  Views.loginView.abbrechenPressed - Abrrechen gedrückt
+2017-02-09 19:47:54.572 INFO  Views.loginView.abbrechenPressed - Abrrechen gedrückt
+2017-02-09 19:48:11.357 INFO  main.start.main - Programm Startet
+2017-02-09 19:48:12.919 INFO  DatabaseManager.Connector.verbinden - Verbindung Starten
+2017-02-09 19:48:13.186 INFO  DatabaseManager.Connector.verbinden - Verbindung Erfolgreich
+2017-02-09 19:48:13.187 INFO  Controller.loginController.getAllLoginUsers - LoginUser Datenbank runterladen
+2017-02-09 19:48:19.947 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 19:48:19.949 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 19:48:19.949 INFO  Views.loginView.einloggenPressed - Login Erfolgt - Fenster wird geöffnet
+2017-02-09 19:49:08.400 INFO  main.start.main - Programm Startet
+2017-02-09 19:49:09.877 INFO  DatabaseManager.Connector.verbinden - Verbindung Starten
+2017-02-09 19:49:10.139 INFO  DatabaseManager.Connector.verbinden - Verbindung Erfolgreich
+2017-02-09 19:49:10.139 INFO  Controller.loginController.getAllLoginUsers - LoginUser Datenbank runterladen
+2017-02-09 19:49:16.978 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 19:49:16.980 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 19:49:20.699 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 19:49:20.700 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 19:49:26.337 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-09 19:49:26.337 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-09 19:49:26.338 INFO  Views.loginView.einloggenPressed - Login Erfolgt - Fenster wird geöffnet
+2017-02-10 16:40:30.855 INFO  main.start.main - Programm Startet
+2017-02-10 16:40:33.018 INFO  DatabaseManager.Connector.verbinden - Verbindung Starten
+2017-02-10 16:40:33.375 INFO  DatabaseManager.Connector.verbinden - Verbindung Erfolgreich
+2017-02-10 16:40:33.376 INFO  Controller.loginController.getAllLoginUsers - LoginUser Datenbank runterladen
+2017-02-10 16:40:37.396 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-10 16:40:37.397 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-10 16:40:38.778 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-10 16:40:38.779 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-10 16:40:38.780 INFO  Views.loginView.einloggenPressed - Login Erfolgt - Fenster wird geöffnet
+2017-02-10 16:40:38.784 INFO  Views.overView.openWindow - Starte Fenster Übersicht
+2017-02-10 16:41:55.464 INFO  main.start.main - Programm Startet
+2017-02-10 16:41:57.013 INFO  DatabaseManager.Connector.verbinden - Verbindung Starten
+2017-02-10 16:41:57.308 INFO  DatabaseManager.Connector.verbinden - Verbindung Erfolgreich
+2017-02-10 16:41:57.308 INFO  Controller.loginController.getAllLoginUsers - LoginUser Datenbank runterladen
+2017-02-10 16:42:00.896 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-10 16:42:00.897 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-10 16:42:00.898 INFO  Views.loginView.einloggenPressed - Login Erfolgt - Fenster wird geöffnet
+2017-02-10 16:42:00.912 INFO  Views.overView.openWindow - Starte Fenster Übersicht
+2017-02-10 16:43:14.321 INFO  main.start.main - Programm Startet
+2017-02-10 16:43:15.786 INFO  DatabaseManager.Connector.verbinden - Verbindung Starten
+2017-02-10 16:43:16.057 INFO  DatabaseManager.Connector.verbinden - Verbindung Erfolgreich
+2017-02-10 16:43:16.058 INFO  Controller.loginController.getAllLoginUsers - LoginUser Datenbank runterladen
+2017-02-10 16:43:18.279 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-10 16:43:18.281 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-10 16:43:21.192 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-10 16:43:21.192 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-10 16:43:21.192 INFO  Views.loginView.einloggenPressed - Login Erfolgt - Fenster wird geöffnet
+2017-02-10 16:43:21.196 INFO  Views.overView.openWindow - Starte Fenster Übersicht
+2017-02-10 16:43:36.050 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-10 16:43:36.051 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-10 16:43:36.051 INFO  Views.loginView.einloggenPressed - Login Erfolgt - Fenster wird geöffnet
+2017-02-10 16:43:36.053 INFO  Views.overView.openWindow - Starte Fenster Übersicht
+2017-02-10 16:45:10.352 INFO  main.start.main - Programm Startet
+2017-02-10 16:45:11.871 INFO  DatabaseManager.Connector.verbinden - Verbindung Starten
+2017-02-10 16:45:12.163 INFO  DatabaseManager.Connector.verbinden - Verbindung Erfolgreich
+2017-02-10 16:45:12.163 INFO  Controller.loginController.getAllLoginUsers - LoginUser Datenbank runterladen
+2017-02-10 16:45:15.929 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-10 16:45:15.930 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-10 16:45:15.930 INFO  Views.loginView.einloggenPressed - Login Erfolgt - Fenster wird geöffnet
+2017-02-10 16:45:15.937 INFO  Views.overView.openWindow - Starte Fenster Übersicht
+2017-02-10 16:47:08.476 INFO  main.start.main - Programm Startet
+2017-02-10 16:47:09.993 INFO  DatabaseManager.Connector.verbinden - Verbindung Starten
+2017-02-10 16:47:10.278 INFO  DatabaseManager.Connector.verbinden - Verbindung Erfolgreich
+2017-02-10 16:47:10.279 INFO  Controller.loginController.getAllLoginUsers - LoginUser Datenbank runterladen
+2017-02-10 16:47:13.852 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-10 16:47:13.854 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-10 16:47:13.855 INFO  Views.loginView.einloggenPressed - Login Erfolgt - Fenster wird geöffnet
+2017-02-10 16:47:13.859 INFO  Views.overView.openWindow - Starte Fenster Übersicht
+2017-02-10 16:47:15.392 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:47:16.148 INFO  Views.overView.immobilienPressed - Immobilien Gedrückt
+2017-02-10 16:47:17.292 INFO  Views.overView.wohnungPressed - Wohnung Gedrückt
+2017-02-10 16:51:43.408 INFO  main.start.main - Programm Startet
+2017-02-10 16:51:45.001 INFO  DatabaseManager.Connector.verbinden - Verbindung Starten
+2017-02-10 16:51:45.291 INFO  DatabaseManager.Connector.verbinden - Verbindung Erfolgreich
+2017-02-10 16:51:45.291 INFO  Controller.loginController.getAllLoginUsers - LoginUser Datenbank runterladen
+2017-02-10 16:51:58.071 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-10 16:51:58.073 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-10 16:52:09.647 INFO  Views.loginView.einloggenPressed - Einloggen gedrueckt
+2017-02-10 16:52:09.648 INFO  Controller.loginController.checkLogin - Überprüfe ob User vorhanden
+2017-02-10 16:52:09.648 INFO  Views.loginView.einloggenPressed - Login Erfolgt - Fenster wird geöffnet
+2017-02-10 16:52:09.652 INFO  Views.overView.openWindow - Starte Fenster Übersicht
+2017-02-10 16:53:20.520 INFO  Views.overView.wohnungPressed - Wohnung Gedrückt
+2017-02-10 16:53:21.755 INFO  Views.overView.immobilienPressed - Immobilien Gedrückt
+2017-02-10 16:53:22.814 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:23.401 INFO  Views.overView.immobilienPressed - Immobilien Gedrückt
+2017-02-10 16:53:24.011 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:25.328 INFO  Views.overView.wohnungPressed - Wohnung Gedrückt
+2017-02-10 16:53:25.653 INFO  Views.overView.wohnungPressed - Wohnung Gedrückt
+2017-02-10 16:53:26.212 INFO  Views.overView.immobilienPressed - Immobilien Gedrückt
+2017-02-10 16:53:27.258 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:27.730 INFO  Views.overView.immobilienPressed - Immobilien Gedrückt
+2017-02-10 16:53:28.616 INFO  Views.overView.wohnungPressed - Wohnung Gedrückt
+2017-02-10 16:53:29.996 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:30.949 INFO  Views.overView.immobilienPressed - Immobilien Gedrückt
+2017-02-10 16:53:31.838 INFO  Views.overView.wohnungPressed - Wohnung Gedrückt
+2017-02-10 16:53:32.292 INFO  Views.overView.immobilienPressed - Immobilien Gedrückt
+2017-02-10 16:53:33.163 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:33.618 INFO  Views.overView.immobilienPressed - Immobilien Gedrückt
+2017-02-10 16:53:34.325 INFO  Views.overView.wohnungPressed - Wohnung Gedrückt
+2017-02-10 16:53:34.902 INFO  Views.overView.immobilienPressed - Immobilien Gedrückt
+2017-02-10 16:53:35.931 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:36.117 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:36.313 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:36.653 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:36.849 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:37.035 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:37.223 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:37.426 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:37.638 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:37.815 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:38.020 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:38.231 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:38.435 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:38.629 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:38.841 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:39.037 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:39.240 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:39.452 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:39.663 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:39.890 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:40.086 INFO  Views.overView.mieterPressed - Mieter Gedrückt
+2017-02-10 16:53:40.255 INFO  Views.overView.mieterPressed - Mieter Gedrückt

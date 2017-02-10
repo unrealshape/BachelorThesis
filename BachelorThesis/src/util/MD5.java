@@ -7,7 +7,7 @@ import java.security.*;
  */
 public class MD5 {
 	
-	public String stringToMd5A(String password) throws NoSuchAlgorithmException
+	public String stringToMd5(String password) throws NoSuchAlgorithmException
 	{
 	    MessageDigest md = MessageDigest.getInstance("MD5");
 	    md.update(password.getBytes());

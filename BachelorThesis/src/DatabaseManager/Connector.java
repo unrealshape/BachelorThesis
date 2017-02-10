@@ -12,14 +12,17 @@ import javax.naming.spi.DirStateFactory.Result;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
+import com.mysql.fabric.xmlrpc.base.Array;
+
 import Beans.loginBean;
+import Beans.overBean;
 
 
 public class Connector {
 	
     private final static String dbserver = "localhost";
     private final static int dbport = 3306;
-    private final static String dbname = "neuedb";
+    private final static String dbname = "BaDiana";
     private final static String dbuser = "root";
     private final static String dbpass ="hallo123";
     private final static String url = "jdbc:mysql://" + dbserver + ":" + dbport + "/" + dbname + "?useSSL=false";
@@ -45,6 +48,7 @@ public class Connector {
     	logger.info("Verbindung Starten");
         instance = new Connector();
         instance.verbinden(url,dbuser,dbpass,"org.gjt.mm.mysql.Driver");
+        logger.info("Verbindung Erfolgreich");
         
     }
     public ResultSet ausfuehren(String query) throws SQLException 
@@ -65,7 +69,7 @@ public class Connector {
     public ArrayList<loginBean> getAllLoginUser() throws SQLException
     {
     	ArrayList<loginBean> loginList = new ArrayList<>();
-    	query="SELECT * FROM BachelorDiana.Anmeldung;";
+    	query="SELECT * FROM BaDiana.Anmeldung;";
     	ResultSet rs = ausfuehren(query);
 	   	 while(rs.next())
 	   	 {
@@ -77,6 +81,47 @@ public class Connector {
 	   	 }
 	   	 return loginList;
     }
+    private int getWohnungenAnzahl() throws SQLException
+    {
+    	String query = "SELECT COUNT(*) FROM BaDiana.Wohnung;"; 
+        int count = 0;
+    	ResultSet rs = ausfuehren(query);
+    	while (rs.next()) {
+    		count = rs.getInt(1);
+		}
+    	return count;
+    }
+    private int getImmobilienAnzahl() throws SQLException
+    {
+    	String query = "SELECT COUNT(*) FROM BaDiana.Immobilie;"; 
+        int count = 0;
+    	ResultSet rs = ausfuehren(query);
+    	while (rs.next()) {
+    		count = rs.getInt(1);
+		}
+    	return count;
+    }
+    private int getMieterAnzahl() throws SQLException
+    {
+    	String query = "SELECT COUNT(*) FROM BaDiana.Hauptmieter;"; 
+        int count = 0;
+    	ResultSet rs = ausfuehren(query);
+    	while (rs.next()) {
+    		count = rs.getInt(1);
+		}
+    	return count;
+    }
+    
+    public ArrayList<overBean> getOverView() throws SQLException
+    {
+    	ArrayList<overBean> overList = new ArrayList<>();
+    	int zahlWohnungen = getWohnungenAnzahl();
+    	int zahlImmobilien = getImmobilienAnzahl();
+    	int zahlMieter = getMieterAnzahl();
+    	overList.add(new overBean(zahlWohnungen, zahlImmobilien, zahlMieter));
+    	return overList;
+    }
+    
 
     /*
     public ArrayList<login> getAllLoginUser() throws SQLException
