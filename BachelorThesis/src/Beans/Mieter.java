@@ -1,6 +1,5 @@
 package Beans;
 
-import javax.print.DocFlavor.STRING;
 
 public class Mieter {
 	
